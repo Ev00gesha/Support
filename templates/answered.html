@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Техническая поддержка{% endblock %}
+
+{% block content %}
+<h1>Ответы на заявки</h1>   
+
+<form method="post" class="form">
+    {% for obj in objects %}
+    {% if obj.id == index %}
+    <p class="p">Тип заявки: {{ obj.type_request }}</p>
+    <p class="p">Тело заявки: {{ obj.body }}</p>
+    {% endif%}
+    {% endfor %}
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="m_b_1">Сохранить</button>
+</form>
+{% endblock content %}

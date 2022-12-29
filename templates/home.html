@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Техническая поддержка</h1>
+<p class="text h_txt_1">
+    Доброго времени суток.<br>
+    Вас приветствует техническая поддержка.<br>
+    Вы можете оставить заявку на данном сайте.<br>
+</p>
+<p class="text h_txt_2">
+    Войдите, чтобы оставить<br>
+    заявку
+</p>
+{% if user.is_authenticated %}
+<form action="{% url 'my_account' %}" class="home_form">
+    <button class="btn h_btn_1" >Войти</button>
+</form>
+{% else %}
+<form action="{% url 'login' %}" class="home_form">
+    <button class="btn h_btn_1" >Войти</button>
+</form>
+{% endif %}
+<p class="text h_txt_3">
+    Зарегистрируйтесь,<br>
+    чтобы войти в личный<br>
+    кабинет
+</p>
+<form action="{% url 'signup' %}" class="home_form">
+    <button class="btn h_btn_2">Зарегистрироваться</button>
+{% endblock content %}

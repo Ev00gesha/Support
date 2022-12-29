@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Техническая поддержка{% endblock %}
+
+{% block content %}
+<h1>Ответы</h1>
+<table border="3" width="1200px" align="right" class="table print">
+    <tr>
+        <th class="th">Тип заявки</th>
+        <th class="th">Заявка</th>
+        <th class="th">Дата подачи</th>
+        <th class="th">Ответ на заявку</th>
+    </tr>
+    {% for obj in object_list %}
+    {% if obj.request_id.user == user %}
+    <tr>
+        <th class="th">{{ obj.request_id.type_request }}</th>
+        <th class="th">{{ obj.request_id.body }}</th>
+        <th class="th">{{ obj.request_id.date }}</th>
+        <th class="th">{{ obj.answer }}</th>
+    </tr>
+    {% endif %}
+    {% endfor %}
+{% endblock content %}

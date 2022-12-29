@@ -1,0 +1,267 @@
+/* home.html */
+h1 {
+    /* Техническая поддержка */
+    position: absolute;
+    width: 1000px;
+    height: 0px;
+    left: 130px;
+    top: 70px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #F1A91E;
+}
+
+.text {
+    font-family: 'Jeju Gothic', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.h_txt_1 {
+    position: absolute;
+    width: 530px;
+    left: 130px;
+    top: 200px;
+}
+
+.h_txt_2 {
+    position: absolute;
+    left: 950px;
+    top: 200px;
+}
+
+.h_txt_3 {
+    position: absolute;
+    left: 950px;
+    top: 400px;
+}
+
+
+.h_btn_1 {
+    width: 140px;
+    height: 40px;
+    left: 1100px;
+    top: 340px;
+}
+
+.h_btn_2 {
+    width: 220px;
+    height: 40px;
+    left: 1065px;
+    top: 600px;
+}
+
+/* Вход в личный кабинет / регистрация */
+
+.form {
+    position: absolute;
+    width: 700px;
+    left: 130px;
+    top: 220px;
+
+}
+
+input {
+    width: 400px;
+    padding: 9px 15px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+label {
+    font-family: 'Jeju Gothic', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+button {
+    position: absolute;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    transition: all .5s;
+}
+
+button:hover {
+    background-color: #093489;
+}
+
+.btn_signup {
+    width: 220px;
+    height: 40px;
+    top: 105%;
+}
+
+.btn_login {
+    width: 140px;
+    height: 40px;
+    top: 110%;
+}
+
+.m_b_1 {
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    transition: all .5s;
+}
+
+.mb_f {
+    margin-top: 40%;
+    margin-left: 80%;
+}
+
+.mb_s {
+    height: 50px;
+    margin-top: 40%;
+    margin-left: 122px;
+}
+
+.mb_a{
+    margin-top: 40.5%;
+    margin-left: 25%;
+}
+
+/* Шаблон сайта */
+.rectangle {
+    position: absolute;
+    height: 180px;
+    width: 1536px;
+    left: 0px;
+    top: 0px;
+    background-color: #296FF8;
+}
+
+.pol {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+}
+
+.first {
+
+    left: 0px;
+    top: -30px;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    background-color: #093489;
+}
+
+.second {
+    left: 0px;
+    top: 150px;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    background-color: #093489;
+}
+
+.third {
+    position: absolute;
+    left: 1506px;
+    top: -30px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    background-color: #093489;
+}
+
+.four {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    left: 1506px;
+    top: 150px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    background-color: #093489;
+}
+
+.five {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 723px;
+    border-radius: 0 100% 0 0;
+    background-color: #093489;
+}
+
+.six {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1506px;
+    top: 723px;
+    border-radius: 100% 0 0 0;
+    background-color: #093489;
+}
+
+.ramka {
+    position: absolute;
+    height: 172px;
+    width: 1522px;
+    left: 0px;
+    top: 0px;
+    border: #093489 solid 7px;
+    background-color: none;
+}
+
+.table {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 650px;
+}
+
+.answered{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 350px;
+}
+
+.text_req {
+    font-family: 'Jeju Gothic', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 850px;
+}
+
+.delete_text {
+    font-family: 'Jeju Gothic', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.p{
+    font-family: 'Jeju Gothic', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.print{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.th{
+    font-size: 25px;
+}
